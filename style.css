@@ -34,7 +34,7 @@ h1 {
     top: 60%;
     transform: translate(-50%, -20%);
     animation-duration: 3s;
-    animation-delay: 2.5s;
+    animation-delay: 2.9s;
 } 
 
 @media screen and (max-width: 1600px) {
@@ -45,7 +45,7 @@ h1 {
 
 @media screen and (max-width: 1400px) {
     .words {
-        width: 115%;
+        width: 120%;
     }
 }
 
@@ -66,10 +66,21 @@ h1 {
         width: 140%;
     }
 }
+@media screen and (max-width: 600px) {
+    .words {
+        width: 155%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .words {
+        width: 165%;
+    }
+}
 
 @media screen and (max-width: 400px) {
     .words {
-        width: 150%;
+        width: 165%;
     }
 }
 
@@ -84,9 +95,9 @@ h1 {
     width: 100%;
     height: 50px;
     margin-top: 50em;
-    background-color: #343148;
+    background-color: black;
     -webkit-backface-visibility: hidden;
-    border-top: 1.5px solid #343148;
+    border-top: 1.5px solid red;
     margin-bottom: -0.5em;
 }
 
@@ -116,6 +127,8 @@ h1 {
     display: block;
     height: auto;
   }
+
+
 
 
 
