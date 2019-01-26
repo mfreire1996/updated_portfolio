@@ -26,7 +26,8 @@ h1 {
 .words {
   color: #2e3131;
   font-size: 50px;
-  font-family: Roboto;
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   padding: 8px 12px;
   position: absolute;
   width: 120vw;
@@ -39,7 +40,7 @@ h1 {
 
 @media screen and (max-width: 1600px) {
   .words {
-    width: 115%;
+    width: 120%;
   }
 }
 
@@ -61,14 +62,20 @@ h1 {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .words {
+    width: 145%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .words {
-    width: 140%;
+    width: 145%;
   }
 }
 @media screen and (max-width: 600px) {
   .words {
-    width: 155%;
+    width: 150%;
   }
 }
 
@@ -80,7 +87,7 @@ h1 {
 
 @media screen and (max-width: 400px) {
   .words {
-    width: 165%;
+    width: 175%;
   }
 }
 
