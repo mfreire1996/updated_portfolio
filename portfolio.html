@@ -11,14 +11,21 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
   </head>
   <body>
-    <div class="info">
-      <img id="picture" width="200" src="Marcos.jpg" />
-      <h1>Marcos Freire</h1>
-      <h3>Web Developer</h3>
 
-      <p>
+      <div id="button">
+      <a href="index.html" id="back-button" class="anim">👈 Back to home page</a>
+      </div>
+      <br>
+
+    <div class="info">
+      <img id="picture" width="200" class="anim"  src="marcos.jpg" />
+      <h1 class="anim">Marcos Freire</h1>
+      <h3 class="anim">Web Developer</h3>
+
+      <p class="anim">
         Maecenas vitae dapibus est. Mauris aliquet orci porttitor consequat
         ultricies. Pellentesque cursus sollicitudin quam. Sed purus sapien,
         varius at lacus ac, iaculis rhoncus leo. Nullam sit amet lobortis
@@ -28,16 +35,16 @@
         elementum auctor sapien efficitur. Nulla vitae iaculis quam. Vivamus
         lectus dui, aliquam et venenatis vel, tempus vel risus. Pellentesque
         ullamcorper ex metus, porta porta nibh pellentesque vel. Ut blandit
-        finibus lectus.
+        finibus lectus. 
       </p>
-      <h1>My projects</h1>
+      <h1 class="anim">My projects</h1>
     </div>
 
     <div class="projects">
       <br /><br /><br /><br /><br /><br />
-      <a href="#"><img id="construction" src="3.jpg"/></a>
-      <p class="rene">Rene's Construction</p>
-      <p class="rene-text">
+      <a href="#"><img id="construction" class="anim" src="3.jpg"/></a>
+      <p id="rene" class="anim">Rene's Construction</p>
+      <p id="rene-text" class="anim">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
         officiis sunt aliquam cumque, corrupti minima earum. Et id deserunt
         earum quod laudantium suscipit quasi illo voluptas sequi, pariatur
@@ -54,9 +61,9 @@
 
       <section class="soccer">
         <br /><br /><br /><br /><br /><br />
-        <a href="#"><img id="futbol" src="soccer.jpg"/></a>
-        <p class="game">The beautfiul game</p>
-        <p class="game-text">
+        <a href="#"><img id="futbol" class="anim" src="soccer.jpg"/></a>
+        <p id="game" class="anim">The beautfiul game</p>
+        <p id="game-text" class="anim">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           officiis sunt aliquam cumque, corrupti minima earum. Et id deserunt
           earum quod laudantium suscipit quasi illo voluptas sequi, pariatur
@@ -70,14 +77,14 @@
           tempora quia mollitia alias rem nostrum sunt. Voluptates consectetur
           amet ipsa inventore iure.
         </p>
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br />
       </section>
 
       <section class="tiara">
-        <br /><br /><br /><br /><br /><br />
-        <a href="#"><img id="hair" src="3.jpg"/></a>
-        <p class="beauty">Tiara's Website</p>
-        <p class="beauty-text">
+        <br /><br /><br /><br />
+        <a href="#"><img id="hair" class="anim" src="3.jpg"/></a>
+        <p id="beauty" class="anim">Tiara's Website</p>
+        <p id="beauty-text" class="anim">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
           voluptatem dolores reiciendis consequuntur iste numquam vero ad, et
           consectetur cum ab voluptate amet sapiente quibusdam sequi doloremque
@@ -95,7 +102,7 @@
       </section>
     </div>
 
-    <div class="contact">
+    <div id="contact" class="anim">
       <h1>Contact</h1>
       <p>
         Any questions? Suggestions? Or want to work together? Feel free to
@@ -121,7 +128,7 @@
       <input class="button" type="submit" id="submit" value="Submit" />
     </div>
 
-    <footer class="footer">
+    <footer id="footer" class="anim">
       <a
         href="https://www.linkedin.com/in/marcos-freire/"
         target="_blank"
