@@ -13,6 +13,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background: url(marcos.jpg);
 }
 
 img {
@@ -56,12 +57,34 @@ p {
   color: #f2f1ef;
 }
 
-.rene {
+a {
+  font-size: 20px;
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 300;
+}
+
+#button {
+  text-align: right;
+}
+
+#back-button {
+  text-decoration: none;
+  color: white;
+}
+
+#back-button:hover {
+  -webkit-transition: all 0.2s;
+  opacity: 0.9;
+  color: #22a7f0;
+}
+
+#rene {
   text-align: center;
   font-weight: 700 !important;
 }
 
-.rene-text {
+#rene-text {
   text-align: center;
 }
 
@@ -79,21 +102,21 @@ img#futbol {
   margin-right: auto;
 }
 
-.game {
+#game {
   text-align: center;
   font-weight: 700 !important;
 }
 
-.game-text {
+#game-text {
   text-align: center;
 }
 
-.beauty {
+#beauty {
   text-align: center;
   font-weight: 700 !important;
 }
 
-.beauty-text {
+#beauty-text {
   text-align: center;
 }
 
@@ -104,7 +127,7 @@ img#hair {
   margin-right: auto;
 }
 
-.contact {
+#contact {
   text-align: center;
 }
 
@@ -156,7 +179,7 @@ submit:after {
   box-shadow: 0px 4px 6px 2px #bfbfbf, 1px 1px 5px #bfbfbf;
 }
 
-.footer {
+#footer {
   position: relative;
   bottom: 0;
   width: 100%;
