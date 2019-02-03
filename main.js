@@ -7,3 +7,4 @@ var typed = new Typed(".type", {
   backSpeed: 70,
   loop: true
 });
+
