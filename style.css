@@ -5,9 +5,9 @@ body {
   background: #24252a;
 }
 
-#particles-js {
+/* #particles-js {
   height: 100%;
-}
+} */
 
 h1 {
   position: absolute;
@@ -24,8 +24,13 @@ h1 {
   text-shadow: 0 2px 5px rbga(0, 0, 0, 0.5);
 }
 
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
 .words {
-  color: #2e3131;
+  color: #fff;
   font-size: 50px;
   font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -65,7 +70,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .words {
-    width: 145%;
+    width: 135%;
   }
 }
 
@@ -77,6 +82,7 @@ h1 {
 @media screen and (max-width: 600px) {
   .words {
     width: 150%;
+    margin-top: 30px;
   }
 }
 
@@ -101,7 +107,7 @@ h1 {
 .button {
   font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   text-decoration: none;
   color: white;
 }
@@ -109,7 +115,7 @@ h1 {
 .button:hover {
   opacity: 0.7;
   -webkit-transition: all 0.3s;
-  color: #67809f;
+  color: black;
 }
 
 .footer {
@@ -149,4 +155,56 @@ h1 {
 .fa-envelope {
   display: block;
   height: auto;
+}
+
+.intro {
+  color: white;
+  position: relative;
+  margin-top: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.name {
+  color: red;
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    margin-top: 230px;
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: 30px;
+  }
 }
