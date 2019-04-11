@@ -1,12 +1,12 @@
-// var typed = new Typed(".type", {
-//   strings: [
-//     "Hello! My name is Marcos Freire",
-//     "Enjoy looking at all my previous works!"
-//   ],
-//   typeSpeed: 70,
-//   backSpeed: 70,
-//   loop: true
-// });
+var typed = new Typed(".type", {
+  strings: [
+    "Hello! My name is Marcos Freire",
+    "I'm a full stack Web Developer"
+  ],
+  typeSpeed: 70,
+  backSpeed: 70,
+  loop: true
+});
 
 TweenMax.from(".intro", 1.6, {
   delay: 0.5,
