@@ -76,7 +76,7 @@ a {
 #back-button:hover {
   -webkit-transition: all 0.2s;
   opacity: 0.9;
-  color: #22a7f0;
+  color: red;
 }
 
 #rene {
@@ -213,7 +213,8 @@ submit:after {
   height: auto;
 }
 
-.fa-envelope {
+.fa-file {
+  
   display: block;
   height: auto;
 }

@@ -3,6 +3,8 @@ body {
   padding: 0;
   height: 100vh;
   background: #24252a;
+  background-image: url("../updated_portfolio/programming.jpg");
+  background-size: cover;
 }
 
 /* #particles-js {
@@ -22,11 +24,6 @@ h1 {
   color: #fff;
   font-size: 40px;
   text-shadow: 0 2px 5px rbga(0, 0, 0, 0.5);
-}
-
-.background-image {
-  width: 100%;
-  height: auto;
 }
 
 .words {
@@ -158,12 +155,8 @@ h1 {
 }
 
 .intro {
-  color: white;
-  position: relative;
-  margin-top: 300px;
-  margin-left: 200px;
-  margin-right: 200px;
   text-align: center;
+  padding: 315px;
   text-transform: capitalize;
   font-weight: bold;
   font-size: 4vw;
@@ -173,38 +166,35 @@ h1 {
   color: red;
 }
 
+@media screen and (max-width: 100px) {
+  .intro {
+    padding: 285px;
+    font-size: 5vw;
+  }
+}
+ 
 @media screen and (max-width: 800px) {
   .intro {
-    margin-top: 300px;
-    margin-left: 150px;
-    margin-right: 200px;
+    padding: 285px;
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .intro {
-    margin-top: 230px;
-    margin-left: 150px;
-    margin-right: 200px;
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro {
-    margin-top: 200px;
-    margin-left: 150px;
-    margin-right: 200px;
     font-size: 35px;
   }
-}
+} 
 
 @media screen and (max-width: 400px) {
   .intro {
-    margin-top: 200px;
-    margin-left: 150px;
-    margin-right: 200px;
-    font-size: 30px;
+
+    font-size: 8vw;
   }
-}
+} 
